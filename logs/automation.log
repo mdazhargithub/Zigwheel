@@ -1,0 +1,12 @@
+11:41:22.502 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:41:22.521 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:41:22.552 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:41:22.553 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:41:22.582 [main] INFO  testCases.TC_manufacturer_1 - **** Starting *****
+11:41:44.018 [main] INFO  testCases.TC_manufacturer_1 - **** Finished TC_003_LoginDDT *****
+11:41:44.032 [main] INFO  testCases.TC_manufacturer_1 - **** TC_login_3_2 Started *****
+11:41:44.189 [main] INFO  testCases.TC_manufacturer_1 - **** Clicking on next *****
+11:41:44.550 [main] INFO  testCases.TC_manufacturer_1 - **** Clicked on next *****
+11:41:51.167 [main] INFO  testCases.TC_manufacturer_1 - **** Finished TC_002_LoginDDT *****
+11:41:51.171 [main] INFO  testCases.TC_manufacturer_1 - **** TC_login_3_3 Started *****
+11:41:54.768 [main] INFO  testCases.TC_manufacturer_1 - **** TC_login_3_3 Finished *****

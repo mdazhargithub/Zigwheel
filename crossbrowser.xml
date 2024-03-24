@@ -1,0 +1,51 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+<suite name = "commonSuite">
+
+	<listeners>
+
+		<listener class-name="utilities.ExtentReportManager"></listener>
+
+	</listeners>
+
+	<test name = "Test">
+
+		<parameter name = "Browser" value = "chrome"/>	
+		<parameter name = "os" value = "Win11"/>
+
+		<classes>
+
+		   <class name="testCases.TC_manufacturer_1"/>
+			<class name="testCases.TC_carModel_2"/>  
+			<class name="testCases.TC_login_3_1"/>
+	        <class name="testCases.TC_login_3_2"/>
+			<class name="testCases.TC_login_3_3"/>
+			
+		<!--	<class name="testCases.TC_login_3_4" /> -->
+
+		</classes>
+
+	</test>
+
+	<test name = "Test2">
+
+		<parameter name = "Browser" value = "edge"/>	
+		<parameter name = "os" value = "Win11"/>
+
+		<classes>
+
+		    <class name="testCases.TC_manufacturer_1"/>
+			<class name="testCases.TC_carModel_2"/>  
+			<class name="testCases.TC_login_3_1"/>
+	        <class name="testCases.TC_login_3_2"/>
+			<class name="testCases.TC_login_3_3"/>
+			
+		<!--	<class name="testCases.TC_login_3_4" /> -->
+
+		</classes>
+
+	</test>
+
+</suite>

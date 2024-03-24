@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T11:40:42 IST" name="commonSuite" finished-at="2024-03-22T11:41:54 IST" duration-ms="72742">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T11:40:42 IST" name="Test" finished-at="2024-03-22T11:41:54 IST" duration-ms="72742">
+      <class name="testCases.TC_carModel_2">
+        <test-method signature="validateCars()[pri:0, instance:testCases.TC_carModel_2@776aec5c]" started-at="2024-03-22T11:41:04 IST" name="validateCars" finished-at="2024-03-22T11:41:22 IST" duration-ms="17783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCars -->
+      </class> <!-- testCases.TC_carModel_2 -->
+      <class name="testCases.TC_login_3_1">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_login_3_1@1d296da]" started-at="2024-03-22T11:41:22 IST" name="validateLogin" data-provider="login" finished-at="2024-03-22T11:41:44 IST" duration-ms="21440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kCs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- testCases.TC_login_3_1 -->
+      <class name="testCases.TC_manufacturer_1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_manufacturer_1@36fc695d]" started-at="2024-03-22T11:40:19 IST" name="setup" finished-at="2024-03-22T11:40:42 IST" duration-ms="22593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateManufactureAndPrice()[pri:0, instance:testCases.TC_manufacturer_1@36fc695d]" started-at="2024-03-22T11:40:42 IST" name="validateManufactureAndPrice" finished-at="2024-03-22T11:41:04 IST" duration-ms="21767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateManufactureAndPrice -->
+      </class> <!-- testCases.TC_manufacturer_1 -->
+      <class name="testCases.TC_login_3_2">
+        <test-method signature="validateLogin()[pri:0, instance:testCases.TC_login_3_2@7c7a06ec]" started-at="2024-03-22T11:41:44 IST" name="validateLogin" finished-at="2024-03-22T11:41:51 IST" duration-ms="7143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- testCases.TC_login_3_2 -->
+      <class name="testCases.TC_login_3_3">
+        <test-method signature="validateLogin()[pri:0, instance:testCases.TC_login_3_3@75d4a5c2]" started-at="2024-03-22T11:41:51 IST" name="validateLogin" finished-at="2024-03-22T11:41:54 IST" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- testCases.TC_login_3_3 -->
+    </test> <!-- Test -->
+  </suite> <!-- commonSuite -->
+</testng-results>
